@@ -1,4 +1,9 @@
 ## 快速开始
+## 模型下载
+- 百度网盘
+- 通过网盘分享的文件：model
+链接: https://pan.baidu.com/s/1IL1LVStUZ4Mw_tTNb4E3aQ?pwd=1234 提取码: 1234 
+--来自百度网盘超级会员v4的分享
 ### 依赖
 - 实验环境：**PyTorch 2.3.0 + CUDA 12.1 + Python 3.10 + Ubuntu 22.04**
 
