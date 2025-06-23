@@ -1,6 +1,12 @@
-实验环境：PyTorch 1.3.1 + CUDA 10.1 + Python 3.6 + Ubuntu 16.04
-pip3 install torch==1.3.1
-论文实验基于 PyTorch 0.4.1 + CUDA 9.0
+## 快速开始
+### 依赖
+- 实验环境：**PyTorch 2.3.0 + CUDA 12.1 + Python 3.10 + Ubuntu 22.04**
+
+  ```bash
+  # 官方提供的 cu121 轮子
+  pip3 install torch==2.3.0+cu121 torchvision==0.18.0+cu121 \
+    --extra-index-url https://download.pytorch.org/whl/cu121
+如需复现论文的老版结果，可回退至 PyTorch 0.4.1 + CUDA 9.0。
 其他依赖
 pip3 install lmdb pillow torchvision nltk natsort
 # 1. 训练 CRNN
