@@ -14,6 +14,9 @@
 如需复现论文的老版结果，可回退至 PyTorch 0.4.1 + CUDA 9.0。
 其他依赖
 pip3 install lmdb pillow torchvision nltk natsort
+## 训练集选择
+- 北京大学开源SVHN
+- MNIST + EMNIST 可自行根据tensorflow或pytorch下载使用
 # 1. 训练 CRNN
 CUDA_VISIBLE_DEVICES=0 python3 train.py \
   --train_data data_lmdb_release/training \
